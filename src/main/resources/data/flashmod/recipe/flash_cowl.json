@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RRR",
+    "RGR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "id": "flashmod:flash_cowl",
+    "count": 1
+  }
+}

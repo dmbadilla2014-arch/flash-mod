@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "flashmod",
+  "version": "${version}",
+  "name": "Flash Speedster",
+  "description": "Velocista: niveles en la barra de XP, stamina, tiempo lento con C, vibrar con V, trajes crafteables y estela de rayos.",
+  "authors": [
+    "Tu y Claude"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.flashmod.FlashMod"
+    ],
+    "client": [
+      "com.flashmod.FlashClient"
+    ]
+  },
+  "mixins": [
+    "flashmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

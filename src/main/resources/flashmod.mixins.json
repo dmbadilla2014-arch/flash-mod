@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.flashmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerModelMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

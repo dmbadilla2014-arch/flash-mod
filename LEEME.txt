@@ -1,0 +1,21 @@
+FLASH SPEEDSTER - mod de Fabric para Minecraft Java 1.21.1
+=========================================================
+COMPILAR (necesitas Java 21):
+  Opcion A (facil): abre esta carpeta con IntelliJ IDEA (Community sirve). Importa como proyecto Gradle
+                    y ejecuta la tarea  Tasks > build > build.
+  Opcion B (terminal): con Gradle 8.8+ instalado:  gradle build
+  El mod queda en  build/libs/flash-speedster-1.0.0.jar  (NO uses el que termina en -sources).
+  Si Gradle se queja de versiones (loom, fabric_version...), genera una plantilla en
+  https://fabricmc.net/develop/template (1.21.1), copia SUS valores de gradle.properties/build.gradle
+  y deja mis carpetas src/ tal cual.
+
+INSTALAR: Fabric Loader (0.16+) para 1.21.1 + Fabric API, y pon el .jar en la carpeta mods.
+
+JUGAR:
+  Traje: lana roja + lingote de oro en mesa de crafteo (capucha, pechera, pantalones, botas). Pestaña Combate.
+  Barra de XP = nivel de velocista (correr con el traje da XP). Mas nivel = mas stamina y velocidad.
+  C  = tiempo lento (cuanto mas nivel, mas lento el mundo: 12 -> 2 ticks/seg). Vuelve a pulsar C para parar.
+  V  = vibrar a traves de paredes (nivel 10+).
+  Correr contra una pared = subirla (nivel 8+). Correr sobre agua (nivel 5+).
+  El traje te protege del dano de caida.
+Las teclas se cambian en Opciones > Controles > Flash.
